@@ -7,4 +7,4 @@ Also to show the easyness of the award
 - Compile with fpc
 
 --- todo ---
-- nothing at the moment :))
+- learn markdown because i suck at it
