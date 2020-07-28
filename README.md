@@ -8,3 +8,4 @@ Also to show the easyness of the award
 
 --- todo ---
 - learn markdown because i suck at it
+- review lessons
