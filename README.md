@@ -1,2 +1,2 @@
 # hsg-tin-2020
-Repository chuẩn bị thi hsg tin học 2020 :))
+Just some code to practice for the "excellent students award for computer science 2020" 
