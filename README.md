@@ -8,5 +8,5 @@ Also to show the easyness of the award
 - Compile with fpc
 
 --- todo ---
-- learn markdown because i suck at it
+- learn markdown (and git) because i suck at it
 - review lessons
