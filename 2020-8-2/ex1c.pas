@@ -18,5 +18,6 @@ begin
    writeln('Odd total = ',ot);
    writeln('Even total = ',et);
    writeln('Total = ',t);
+   writeln('Push Enter / Return to stop');
    readln;
 end.
