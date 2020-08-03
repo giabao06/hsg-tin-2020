@@ -1,0 +1,4 @@
+Total of x+y is: 35
+Diffrence of x-y is: -33
+Product of x*y is: 34
+Quotient of x/y is: 0.0

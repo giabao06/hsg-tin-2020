@@ -1,3 +1,0 @@
-Odd total = -6954
-Even total = -6332
-Total = -13286

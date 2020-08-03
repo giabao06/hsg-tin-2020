@@ -1,0 +1,3 @@
+Odd total = 6
+Even total = 9
+Total = 15

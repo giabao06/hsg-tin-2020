@@ -1,15 +1,16 @@
 //Calculate the total, odd total and even total from 1 to n (File IO)
 
-const fi='Ex1f.in';
-      fo='Ex1f.txt';
+const fi='Ex1fin.txt';  //Constant for in file
+      fo='Ex1fout.txt'; //Constant for out file
 
 var n,t,ot,et : integer;
     f : text;
 
-procedure Import; //Function for importing files?
+
+procedure Import; //Function for importing files
 begin
-    writeln('Reading input file Ex1f.in...');
-    assign(f,fi);
+    writeln('Reading input file Ex1fin.txt...');
+    Assign(f,fi);
     reset(f);
     readln(f,n);
     close(f);
@@ -30,10 +31,10 @@ begin
                      end;
 end;
 
-procedure Export; //Function for exporting files?
+procedure Export; //Function for exporting files
 begin
-   writeln('Writing output to file Ex1f.txt...');
-   assign(f,fo);
+   writeln('Writing output to file Ex1fout.txt...');
+   Assign(f,fo);
    rewrite(f);
    writeln(f,'Odd total = ',ot);
    writeln(f,'Even total = ',et);
