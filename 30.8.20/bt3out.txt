@@ -1,0 +1,2 @@
+String =123456
+Total = 21

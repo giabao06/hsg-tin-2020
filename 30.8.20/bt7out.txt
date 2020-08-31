@@ -1,0 +1,4 @@
+String = 33
+Binary = 161
+
+No result
