@@ -1,0 +1,2 @@
+Lon nhat = 51044
+Nho nhat = 124

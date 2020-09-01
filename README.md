@@ -6,8 +6,8 @@ Just some code and examples to practice for the "excellent students award for co
 - Compile with fpc
 
 --- todo ---
-- learn markdown (and git) because i suck at it
-- review lessons
+- <del>learn markdown (and git) because i suck at it</del>
+- <del>review lessons</del>
 
 --- To use this code when compiled ---
 - Create the input file before running the program
