@@ -2,7 +2,7 @@
 
 program bt6;
 const filein='bt6in.txt'; fileout='bt6out.txt';
-var f:text; x,y:longint;
+var f:text; x,y,xn,yn:longint;
     ax:array[1..100] of longint; ay:array[1..100] of longint;
 
 function snt(x:longint):boolean;
@@ -24,6 +24,7 @@ begin
   begin
    ax[j]=i;
    inc(j);
+   inc(xn);
   end
   else inc(j);
  end;
@@ -40,6 +41,7 @@ begin
   begin
    ay[j]=i;
    inc(j);
+   inc(yn);
   end
   else inc(j);
  end;
@@ -54,4 +56,16 @@ begin
 end;
 
 procedure sosanh;
-var i,j:longint;
+var i,j,d:longint;
+begin
+  i:=1; j:=1;
+  while i<=xn do
+    while j<=yn do
+      if ax[i]=ay[j] then
+        begin
+          inc(i);
+          inc(j);
+          inc(c);
+        end
+        else inc(j);
+end;

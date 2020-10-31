@@ -1,0 +1,44 @@
+program bt3;
+const filein='bt3in.txt'; fileout='bt3out.txt';
+var f:text; s0:string;
+
+procedure fread;
+ begin
+  assign(f,filein);
+  reset(f);
+  readln(f,s0);
+  close(f);
+ end;
+
+procedure out;
+var s,e,ll,i,l,back1,back2:longint; s1:string;
+begin
+ i:=1; ll:=0; s1:='';
+ while i<=length(s0) do
+ begin
+  if s0[i] in [#48 .. #57] then
+  begin
+   s:=i;
+   while s0[i] in [#48 .. #57] do inc(i);
+   e:=i;
+   l:=e-s+1;
+   if ll<l then
+   begin
+    ll:=l;
+    s1:=copy(s0,s,l);
+    back1:=s; back2:=e;
+   end;
+   i:=e+1;
+  end;
+  inc(i);
+ end;
+ assign(f,fileout);
+ rewrite(f);
+ writeln(f,s1);
+ close(f);
+end;
+
+begin
+ fread;
+ out;
+end.

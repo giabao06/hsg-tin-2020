@@ -1,0 +1,2 @@
+Số chẵn trong đường chéo 1: 2
+Số chẵn trong đường chéo 2: 2

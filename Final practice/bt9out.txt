@@ -1,0 +1,2 @@
+Số chính phương trong đường chéo 1: 2
+Số chính phương trong đường chéo 2: 2
