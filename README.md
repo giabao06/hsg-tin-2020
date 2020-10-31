@@ -1,13 +1,13 @@
 # hsg-tin-2020
-</del>Just some code and examples to practice for the "excellent students award for computer science 2020"
+<del>Just some code and examples to practice for the "excellent students award for computer science 2020"
 
 --- Instructions ---
 - Clone this repository
 - Compile with fpc
 
 --- todo ---
-- <del>learn markdown (and git) because i suck at it</del>
-- <del>review lessons</del>
+- learn markdown (and git) because i suck at it
+- review lessons
 
 --- To use this code when compiled ---
 - Create the input file before running the program
