@@ -2,14 +2,15 @@
 <del>Just some code and examples to practice for the "excellent students award for computer science 2020" </del>
 
 <del>--- Instructions ---
--<del> Clone this repository</del>
--<del> Compile with fpc</del>
+- <del> Clone this repository</del>
+- <del> Compile with fpc</del>
 </del>
 
 <del>--- todo ---
--<del> learn markdown (and git) because i suck at it</del>
--<del> review lessons</del>
+- <del>learn markdown (and git) because i suck at it</del>
+- <del>review lessons</del>
 </del>
+
 <del>--- To use this code when compiled ---
 - <del>Create the input file before running the program </del>
 - <del>Runtime err 3 = no input file </del>
